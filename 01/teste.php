@@ -22,8 +22,14 @@ echo $nome. " " . $sobrenome . "<br>";
 echo $nome_completo . "<br>";
 
 // Variáveis numéricas
-$idade = 25 . "<br>";
-$ano = 2024;
+echo $idade = 25 . "<br>";
+$ano - $idade . "<br>"; //operações matemáticas
 
-echo $idade;
+echo 'Esse é um texto em aspas simples <br>';
+echo "Esse é um texto em aspas duplas <br>";
+
+// Trabalhando com aspas simples e duplas
+
+
+
 ?>
