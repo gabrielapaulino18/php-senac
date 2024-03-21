@@ -1,35 +1,49 @@
 <?php
+    echo "Olá Mundo! <BR>";
 
-echo "Olá Mundo!";
+    //Isso é um comentário
+    
+    # Isso também é um comentário
 
-// Isso é um comentário
+    /*
+    Isso é um comentário de múltiplas linhas
+    Eu disse, múltiplas linhas
+    */
 
-# Isso também é um comentário
+    //Decração de variáveis
+    $nome = "João";
+    $sobrenome = "Silva";
+    $nome_completo = $nome ." ". $sobrenome;
 
-/* Isso é um comentário de múltiplas linhas
-eu disse, múltiplas linhas
-*/
+    //echo $nome;
+    //echo $sobrenome;
+    echo $nome." ".$sobrenome ."<br>";
+    echo $nome_completo . "<br>";
 
-// Declaração de variáveis
-$nome = ' João';
-$sobrenome = 'Silva';
-$nome_completo;
+    //Variáveis numéricas
+    $idade = 25;
+    $ano = 2024;
 
-// echo $nome;
-// echo $sobremone;
+    echo $idade . "<br>";
+    echo $ano - $idade . "<br>"; //operações matemáticas
 
-echo $nome. " " . $sobrenome . "<br>";
-echo $nome_completo . "<br>";
+    echo 'Esse é um texto em aspas simples <br>';
+    echo "Esse é um texto em aspas duplas <br>";
 
-// Variáveis numéricas
-echo $idade = 25 . "<br>";
-$ano - $idade . "<br>"; //operações matemáticas
+    //Trabalhando com aspas simples e duplas
+    echo 'Dom Pedro disse: "Independencia ou Morte!" <br>';
 
-echo 'Esse é um texto em aspas simples <br>';
-echo "Esse é um texto em aspas duplas <br>";
+    echo "$nome tem $idade anos de idade <br>";
+    echo '$nome tem $idade anos de idade';
 
-// Trabalhando com aspas simples e duplas
+    // Testando o case sensitive - palavras reservadas
+    echo "Texto 1 <br>";
+    ECHO "Texto 2 <br>";
 
+    //Testando o case sensitive - variáveis
+    $primeiroNome = "Carlos";
 
+    echo $primeiroNome;
+    ECHO $PRIMEIRONOME;
 
 ?>
