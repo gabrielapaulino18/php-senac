@@ -19,5 +19,28 @@ $texto = "O rato roeu a roupa do rei.";
 $novo_texto = str_replace("rato", "gato", $texto);
 echo $novo_texto; //Saída: O gato roeu a roupa do rei.
 
+//strtolower(): Converte uma string para letras minúsculas
+//strtolower(): Converte uma string para letras maiúsculas
+
+$texto = "Olá, Mundo!";
+$texto_minusculo = strtolower($texto);
+$texto_maiusculo = strtoupper($texto);
+
+echo $texto_maiusculo;
+echo "<br>";
+
+echo $texto_minusculo;
+echo "<br>";
+
+echo $texto;
+echo "<br>";
+
+//trim(): Remove espaços em branco no início e no final de uma string.
+$texto = "Olá, mundo!   ";
+$texto_sem_espacos; //Saída: Olá, Mundo!
+echo "<br>";
+
+//Strpos(): Encontra a posiçãp da primeira ocorrência de uma sbustring em uma string
+$texto = "O rato roeu a roupa do rei";
 
 ?>
