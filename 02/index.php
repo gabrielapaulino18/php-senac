@@ -42,5 +42,13 @@ echo "<br>";
 
 //Strpos(): Encontra a posiçãp da primeira ocorrência de uma sbustring em uma string
 $texto = "O rato roeu a roupa do rei";
+$posicao = strpos($texto, "rato"); // Saída: 2 (posição da primeira letrada palavra "rato")
+echo $posicao;
+echo "<br>";
+
+// strrev(): Inverte uma string
+$texto = "Socorram-me subi no onibus em Marrocos";
+$texto_invertido = strrev($texto);
+echo $texto_invertido; // Saída: socorraM me subino on ibus em-marrocos
 
 ?>
