@@ -50,7 +50,7 @@ switch ($dia_semana) {
     case "Sun":
         echo "Hoje é domingo. <br>";
         break;
-    default:
+        default:
         echo "Erro ao obter o dia da semana. <br>";
 }
 ?>
