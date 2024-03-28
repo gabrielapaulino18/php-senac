@@ -55,3 +55,4 @@ switch ($dia_semana) {
 }
 ?>
 
+git config --global user.email "gabrielappsilva18@gmail.com"
