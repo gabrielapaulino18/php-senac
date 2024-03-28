@@ -54,5 +54,3 @@ switch ($dia_semana) {
         echo "Erro ao obter o dia da semana. <br>";
 }
 ?>
-
-git config --global user.email "gabrielappsilva18@gmail.com"
