@@ -216,7 +216,7 @@ $altura_piramide = 5;
 // Implementação de Desenho de Pirâmide
 
 for($i = 1; $i <= $altura_piramide; $i++) {
-    echo str_repeat("-", $altura_piramide - $i) . str_repeat("* ", $i) . "<br>";
+    echo str_repeat(" ", $altura_piramide - $i) . str_repeat("* ", $i) . "<br>";
 }
 
 echo "<br>";
@@ -225,7 +225,7 @@ echo "<br>";
 
 for($i = 1; $i <= $altura_piramide; $i++) {
     for($j = 1; $j <= $i; $j++) {
-        echo "*";
+        echo "* ";
     }
     echo "<br>";
 }
