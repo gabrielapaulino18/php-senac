@@ -4,8 +4,8 @@
 class DatabaseRepository
 {
     private static $server = 'localhost';
-    private static $username = 'usuario_contatos';
-    private static $password = 'Senha@123';
+    private static $username = 'root';
+    private static $password = '';
     private static $database = 'contatos';
 
     public static function connect()
@@ -31,6 +31,18 @@ class DatabaseRepository
     public static function getContactById($id) {
         $connection = self::connect();
         $result = $connection->query("SELECT * FROM contatos_info WHERE id = $id");
+
+        $contact = null;
+        if($result->num_rows > 0) {
+            $contact = $result->fetch_assoc();
+        }
+        $connection->close();
+        return $contact;
+    }
+
+    public static function getContactByName($nome) {
+        $connection = self::connect();
+        $result = $connection->query("SELECT * FROM contatos_info WHERE nome = '$nome'");
 
         $contact = null;
         if($result->num_rows > 0) {
