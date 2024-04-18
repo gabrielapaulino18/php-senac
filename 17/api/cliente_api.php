@@ -17,3 +17,19 @@ function listarClientes() {
     $clientes = ClienteRepository::getAllClientes();
     echo json_encode($clientes);
 }
+
+function buscarClientePorId() {
+
+}
+
+function cadastrarCliente() {
+
+}
+
+function atualizarCliente() {
+
+}
+
+function excluirCliente() {
+    
+}
