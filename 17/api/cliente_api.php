@@ -28,7 +28,8 @@ function listarClientes() {
 }
 
 function buscarClientePorId() {
-
+    $id = $_GET['id'];
+    
 }
 
 function cadastrarCliente() {
